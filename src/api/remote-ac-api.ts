@@ -1,4 +1,4 @@
-const BASE_API_URL = "";
+const BASE_API_URL = "http://localhost:8000";
 
 export async function fetchLatestSensorData() {
   return await fetch(BASE_API_URL + "/api/dht/get_current")
@@ -67,7 +67,7 @@ export async function fetchDhtLowTemp() {
 }
 
 export async function postToggleAcPowerState() {
-  return await fetch("/api/app/state/ac_power/toggle", {
+  return await fetch(BASE_API_URL + "/api/app/state/ac_power/toggle", {
     method: "POST",
   })
     .then(function (res) {
@@ -80,7 +80,7 @@ export async function postToggleAcPowerState() {
 }
 
 export async function fetchAcPowerState() {
-  return await fetch("/api/app/state/ac_power")
+  return await fetch(BASE_API_URL + "/api/app/state/ac_power")
     .then((response) => {
       if (!response.ok) {
         console.warn("Request failed");
@@ -92,7 +92,7 @@ export async function fetchAcPowerState() {
 }
 
 export function postIrCommand(command: string) {
-  fetch("/api/ir_blaster/send_once", {
+  fetch(BASE_API_URL + "/api/ir_blaster/send_once", {
     method: "POST",
     body: JSON.stringify({
       command: command,
@@ -111,13 +111,13 @@ export function postIrCommand(command: string) {
   });
 }
 
-export async function fetchWeatherStation() {
+export async function fetchWeatherStation(): Promise<{ weather_station: string }> {
   return await fetch(BASE_API_URL + "/api/app/state/weather_station").then(
     (response) => response.json()
   );
 }
 
-export async function fetchWxGridPoints() {
+export async function fetchWxGridPoints(): Promise<{ wx_grid_points: string }> {
   return await fetch(BASE_API_URL + "/api/app/state/wx_grid_points").then(
     (response) => response.json()
   );

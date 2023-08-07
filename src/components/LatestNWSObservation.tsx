@@ -1,55 +1,30 @@
-import React, {useCallback, useEffect, useState} from "react";
+import React from "react";
 import {fetchLatestNWSObservation} from "@/api/nws-api";
 import {NWSObservation} from "@/common/types";
-import {useRefresh} from "@/hooks/useRefresh";
-import {convertToFahrenheit, minuteInMiliseconds} from "@/components/remote-ac";
-import {Feature} from "geojson";
+import {convertToFahrenheit} from "@/components/remote-ac";
+import useSWR from "swr";
+
+const fetchData = (weatherStation: string): Promise<NWSObservation> => {
+  return fetchLatestNWSObservation(weatherStation).then(
+    response => {
+      const data = response.properties;
+      return {
+        temp_c: data?.temperature.value,
+        humidity: data?.relativeHumidity.value,
+      } as NWSObservation;
+    });
+};
 
 export function LatestNWSObservation(props: { wxGridPoints: string, weatherStation: string }) {
-  const [latestObservation, setLatestObservation] = useState<NWSObservation | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const {data, error} = useSWR<NWSObservation, Error>(props.weatherStation, fetchData);
 
-  function processNWSObservation(response: Feature) {
-    const data = response.properties;
-    setLatestObservation({
-      temp_c: data?.temperature.value,
-      humidity: data?.relativeHumidity.value,
-    } as NWSObservation);
-  }
+  if (error) return <p>Error</p>;
+  if (!data) return <p>Loading...</p>;
+  console.log("latest observation: ", data);
 
-  const fetchData = useCallback(() => {
-    if (props.weatherStation !== "") {
-      fetchLatestNWSObservation(props.weatherStation).then(
-        (response) => processNWSObservation(response)
-      );
-    }
-  }, [props.weatherStation]);
-
-  useEffect(() => {
-    if (latestObservation !== null) {
-      setIsLoading(false);
-    } else {
-      fetchData();
-    }
-  }, [props.weatherStation, latestObservation, fetchData]);
-
-  useRefresh(fetchData, minuteInMiliseconds * 60);
-
-  console.log("latest observation: ", latestObservation);
-
-  return (
-    <>
-      {isLoading ? (
-        <>
-          Loading...
-        </>
-      ) : (
-        <>
-          NWS Observations ({props.weatherStation}):<br/>
-          Temp: {convertToFahrenheit(latestObservation!.temp_c)}&deg;F<br/>
-          RH: {latestObservation?.humidity.toFixed(0)}%
-        </>
-      )}
-    </>
-  );
+  return (<>
+    NWS Observations ({props.weatherStation}):<br/>
+    Temp: {convertToFahrenheit(data.temp_c)}&deg;F<br/>
+    RH: {data.humidity.toFixed(0)}%
+  </>);
 }

@@ -1,12 +1,13 @@
-import {convertToFahrenheit, formatDate, minuteInMiliseconds} from "./remote-ac";
-import React, {useEffect, useState} from "react";
+"use client";
+import {convertToFahrenheit, formatDate} from "./remote-ac";
+import React, {useState} from "react";
 import {fetchDhtData} from "@/api/remote-ac-api";
 import {Chart, ChartItem} from "chart.js/auto";
 import {Col, Container, Row} from "reactstrap";
-import {useRefresh} from "@/hooks/useRefresh";
 import {DhtSensorData} from "@/common/types";
 import {prefersDark} from "@/app/ThemeContext";
 import {getLocalStorageItem, setLocalStorageItem} from "@/common/LocalStorage";
+import useSWR from "swr";
 
 const CHART_TIMEFRAME_KEY = "chartTimeframe";
 const CHART_LAST_TIMEFRAME_KEY = "lastChartTf";
@@ -129,32 +130,21 @@ function makeChart(data: Array<DhtSensorData>, timeframe: string = getLocalStora
   });
 }
 
+const fetchData = (): Promise<DhtSensorData[]> =>
+  fetchDhtData(getLocalStorageItem(CHART_TIMEFRAME_KEY) as string).then((data) => {
+    return data;
+  });
+
 export function Graph() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [chartMade, setChartMade] = useState(false);
   const [newTf, setNewTf] = useState<string>(getLocalStorageItem(CHART_LAST_TIMEFRAME_KEY) as string);
-
-  const fetchData = () => {
-    fetchDhtData(getLocalStorageItem(CHART_TIMEFRAME_KEY) as string).then((data) => {
-      makeChart(data);
-      setChartMade(true);
-    });
-  };
-
-  useEffect(() => {
-    if (chartMade) {
-      setIsLoading(false);
-    } else {
-      fetchData();
-    }
-  }, [chartMade]);
-
-  useRefresh(fetchData, minuteInMiliseconds * 60);
+  const {data, error} = useSWR("graph", fetchData);
 
   const handleTfSubmit = () => {
     setChartTimeframe(newTf!);
     setLastChartTf(newTf as string);
   };
+
+  if (data) makeChart(data);
 
   return (
     <Container>
@@ -202,7 +192,9 @@ export function Graph() {
         </Col>
       </Row>
       <br/>
-      {isLoading ? <p>Loading...</p> : <></>}
+      {error ? <p>error</p> : <>{
+        !data ? <p>Loading...</p> : <></>
+      }</>}
       <div className={"chart-container"}>
         <canvas id="chart"></canvas>
       </div>
