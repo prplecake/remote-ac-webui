@@ -15,6 +15,21 @@ on:
       - 'docs/**'
       - 'yarn.lock'
       - 'package.json'
+  pull_request:
+    branches: [ master ]
+    paths-ignore:
+      - '.**'
+      - '!.github/workflows/linters.yml'
+      - '!.eslintrc.json'
+      - '!.stylelintrc.json'
+      - '!.prettierrc.json'
+      - '!.prettierignore'
+      - 'README.md'
+      - 'dist/**'
+      - 'docs/**'
+      - 'yarn.lock'
+      - 'package.json'
+
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -108,3 +123,18 @@ jobs:
         if: always()
         run: |
           ${{ steps.detect-package-manager.outputs.manager }} lint:style
+
+  enable-automerge:
+    name: Enable auto-merge
+    needs: [
+      #eslint,
+      stylelint
+    ]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    if: contains(github.event.pull_request.labels.*.name, 'merge-when-linted')
+    steps:
+      - uses: alexwilson/enable-github-automerge-action@1.0.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
