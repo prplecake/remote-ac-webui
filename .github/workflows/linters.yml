@@ -2,6 +2,7 @@ name: Linters
 
 on:
   push:
+    branches: [ master ]
     paths-ignore:
       - '.**'
       - '!.github/workflows/linters.yml'
