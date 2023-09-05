@@ -24,7 +24,7 @@ jobs:
 #    name: ESLint (JavaScript)
 #    runs-on: ubuntu-latest
 #    steps:
-#      - uses: actions/checkout@v3
+#      - uses: actions/checkout@v4
 #      - name: Detect package manager
 #        id: detect-package-manager
 #        run: |
@@ -68,7 +68,7 @@ jobs:
     name: Stylelint (CSS)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Detect package manager
         id: detect-package-manager
         run: |
