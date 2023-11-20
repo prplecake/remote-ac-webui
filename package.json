@@ -23,7 +23,7 @@
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
-    "ts-loader": "^9.5.0",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.2.2",
     "web-vitals": "^3.5.0",
     "webpack-bundle-tracker": "^2.0.1",
