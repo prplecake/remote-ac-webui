@@ -10021,10 +10021,10 @@ webidl-conversions@^6.1.0:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
 
-webpack-bundle-tracker@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/webpack-bundle-tracker/-/webpack-bundle-tracker-2.0.1.tgz#250025fb45fde957aa787ab3d458d2cb06d5dd27"
-  integrity sha512-BLPR98I+u/3sExW098tWzmKXeNyOQGMgbLg/eDwYgKKNohde93H2AMmSbRJv4NWn7Ltlryn7gP4XeAG5RP0vGg==
+webpack-bundle-tracker@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-tracker/-/webpack-bundle-tracker-3.0.0.tgz#bfd862556f33b4ed1ac365e0071eb85c8603c978"
+  integrity sha512-D3b3KSlqKsu5dnlgGJSiZMv6QKW1hTTmygseIDJq+muFN+SW6XCp98yAMvUDCEDt9kgMdujL3jSJKDJetTTniQ==
   dependencies:
     lodash.assign "^4.2.0"
     lodash.defaults "^4.2.0"
