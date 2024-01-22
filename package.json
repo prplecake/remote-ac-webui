@@ -22,7 +22,7 @@
     "reactstrap": "^9.2.1",
     "sass": "^1.70.0",
     "sass-loader": "^13.3.3",
-    "style-loader": "^3.3.3",
+    "style-loader": "^3.3.4",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
     "web-vitals": "^3.5.1",
