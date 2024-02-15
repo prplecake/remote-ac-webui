@@ -75,6 +75,6 @@
     "stylelint-config-standard": "^34.0.0",
     "stylelint-scss": "^5.3.2",
     "webpack": "^5.90.1",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^5.0.1"
   }
 }
