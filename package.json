@@ -35,7 +35,7 @@
   "scripts": {
     "test:lint:js": "eslint src/**/*.{ts,tsx}",
     "test:lint:fix-js": "eslint src/**/*.{ts,tsx} --fix",
-    "test:lint:sass": "stylelint \"src/**/*.{css,scss}\" && prettier --check \"src/**/*.{css,scss}\"",
+    "lint:style": "stylelint \"src/**/*.{css,scss}\" && prettier --check \"src/**/*.{css,scss}\"",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "dev": "webpack --config webpack.config.js --watch --mode development",
