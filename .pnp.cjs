@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.24.4"],\
           ["@babel/preset-react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.24.1"],\
           ["@testing-library/jest-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.4.2"],\
-          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.2"],\
+          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.2"],\
           ["@testing-library/user-event", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.5.2"],\
           ["@types/node", "npm:20.12.7"],\
           ["@types/react", "npm:18.2.78"],\
@@ -4709,14 +4709,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@testing-library/dom", [\
-      ["npm:9.3.1", {\
-        "packageLocation": "../../.yarn/berry/cache/@testing-library-dom-npm-9.3.1-ec81dc9367-10c0.zip/node_modules/@testing-library/dom/",\
+      ["npm:10.0.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@testing-library-dom-npm-10.0.0-708b4ef7e6-10c0.zip/node_modules/@testing-library/dom/",\
         "packageDependencies": [\
-          ["@testing-library/dom", "npm:9.3.1"],\
+          ["@testing-library/dom", "npm:10.0.0"],\
           ["@babel/code-frame", "npm:7.24.2"],\
           ["@babel/runtime", "npm:7.22.6"],\
           ["@types/aria-query", "npm:5.0.1"],\
-          ["aria-query", "npm:5.1.3"],\
+          ["aria-query", "npm:5.3.0"],\
           ["chalk", "npm:4.1.2"],\
           ["dom-accessibility-api", "npm:0.5.16"],\
           ["lz-string", "npm:1.5.0"],\
@@ -4766,19 +4766,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@testing-library/react", [\
-      ["npm:14.2.2", {\
-        "packageLocation": "../../.yarn/berry/cache/@testing-library-react-npm-14.2.2-b4ff2da14c-10c0.zip/node_modules/@testing-library/react/",\
+      ["npm:15.0.2", {\
+        "packageLocation": "../../.yarn/berry/cache/@testing-library-react-npm-15.0.2-095a436fff-10c0.zip/node_modules/@testing-library/react/",\
         "packageDependencies": [\
-          ["@testing-library/react", "npm:14.2.2"]\
+          ["@testing-library/react", "npm:15.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.2", {\
-        "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-c86f528b21/3/.yarn/berry/cache/@testing-library-react-npm-14.2.2-b4ff2da14c-10c0.zip/node_modules/@testing-library/react/",\
+      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-ac1da52fe2/3/.yarn/berry/cache/@testing-library-react-npm-15.0.2-095a436fff-10c0.zip/node_modules/@testing-library/react/",\
         "packageDependencies": [\
-          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.2"],\
+          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.2"],\
           ["@babel/runtime", "npm:7.22.6"],\
-          ["@testing-library/dom", "npm:9.3.1"],\
+          ["@testing-library/dom", "npm:10.0.0"],\
           ["@types/react", "npm:18.2.78"],\
           ["@types/react-dom", "npm:18.2.24"],\
           ["react", "npm:18.2.0"],\
@@ -6297,14 +6297,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["aria-query", [\
-      ["npm:5.1.3", {\
-        "packageLocation": "../../.yarn/berry/cache/aria-query-npm-5.1.3-9632eccdee-10c0.zip/node_modules/aria-query/",\
-        "packageDependencies": [\
-          ["aria-query", "npm:5.1.3"],\
-          ["deep-equal", "npm:2.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:5.3.0", {\
         "packageLocation": "../../.yarn/berry/cache/aria-query-npm-5.3.0-76575ac83b-10c0.zip/node_modules/aria-query/",\
         "packageDependencies": [\
@@ -8473,33 +8465,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["deep-equal", [\
-      ["npm:2.2.1", {\
-        "packageLocation": "../../.yarn/berry/cache/deep-equal-npm-2.2.1-e1304974ae-10c0.zip/node_modules/deep-equal/",\
-        "packageDependencies": [\
-          ["deep-equal", "npm:2.2.1"],\
-          ["array-buffer-byte-length", "npm:1.0.0"],\
-          ["call-bind", "npm:1.0.2"],\
-          ["es-get-iterator", "npm:1.1.3"],\
-          ["get-intrinsic", "npm:1.2.1"],\
-          ["is-arguments", "npm:1.1.1"],\
-          ["is-array-buffer", "npm:3.0.2"],\
-          ["is-date-object", "npm:1.0.5"],\
-          ["is-regex", "npm:1.1.4"],\
-          ["is-shared-array-buffer", "npm:1.0.2"],\
-          ["isarray", "npm:2.0.5"],\
-          ["object-is", "npm:1.1.5"],\
-          ["object-keys", "npm:1.1.1"],\
-          ["object.assign", "npm:4.1.4"],\
-          ["regexp.prototype.flags", "npm:1.5.0"],\
-          ["side-channel", "npm:1.0.4"],\
-          ["which-boxed-primitive", "npm:1.0.2"],\
-          ["which-collection", "npm:1.0.1"],\
-          ["which-typed-array", "npm:1.1.9"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["deep-is", [\
       ["npm:0.1.4", {\
         "packageLocation": "../../.yarn/berry/cache/deep-is-npm-0.1.4-88938b5a67-10c0.zip/node_modules/deep-is/",\
@@ -9171,24 +9136,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/es-errors-npm-1.3.0-fda0c9b8a8-10c0.zip/node_modules/es-errors/",\
         "packageDependencies": [\
           ["es-errors", "npm:1.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["es-get-iterator", [\
-      ["npm:1.1.3", {\
-        "packageLocation": "../../.yarn/berry/cache/es-get-iterator-npm-1.1.3-7911befaac-10c0.zip/node_modules/es-get-iterator/",\
-        "packageDependencies": [\
-          ["es-get-iterator", "npm:1.1.3"],\
-          ["call-bind", "npm:1.0.2"],\
-          ["get-intrinsic", "npm:1.2.1"],\
-          ["has-symbols", "npm:1.0.3"],\
-          ["is-arguments", "npm:1.1.1"],\
-          ["is-map", "npm:2.0.2"],\
-          ["is-set", "npm:2.0.2"],\
-          ["is-string", "npm:1.0.7"],\
-          ["isarray", "npm:2.0.5"],\
-          ["stop-iteration-iterator", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10352,7 +10299,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.24.4"],\
           ["@babel/preset-react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.24.1"],\
           ["@testing-library/jest-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.4.2"],\
-          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.2"],\
+          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.2"],\
           ["@testing-library/user-event", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.5.2"],\
           ["@types/node", "npm:20.12.7"],\
           ["@types/react", "npm:18.2.78"],\
@@ -11494,17 +11441,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/ipaddr.js-npm-2.1.0-7091ce1549-10c0.zip/node_modules/ipaddr.js/",\
         "packageDependencies": [\
           ["ipaddr.js", "npm:2.1.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["is-arguments", [\
-      ["npm:1.1.1", {\
-        "packageLocation": "../../.yarn/berry/cache/is-arguments-npm-1.1.1-eff4f6d4d7-10c0.zip/node_modules/is-arguments/",\
-        "packageDependencies": [\
-          ["is-arguments", "npm:1.1.1"],\
-          ["call-bind", "npm:1.0.2"],\
-          ["has-tostringtag", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14012,17 +13948,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/object-inspect-npm-1.13.1-fd038a2f0a-10c0.zip/node_modules/object-inspect/",\
         "packageDependencies": [\
           ["object-inspect", "npm:1.13.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["object-is", [\
-      ["npm:1.1.5", {\
-        "packageLocation": "../../.yarn/berry/cache/object-is-npm-1.1.5-48a862602b-10c0.zip/node_modules/object-is/",\
-        "packageDependencies": [\
-          ["object-is", "npm:1.1.5"],\
-          ["call-bind", "npm:1.0.2"],\
-          ["define-properties", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -18153,16 +18078,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/statuses-npm-2.0.1-81d2b97fee-10c0.zip/node_modules/statuses/",\
         "packageDependencies": [\
           ["statuses", "npm:2.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["stop-iteration-iterator", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "../../.yarn/berry/cache/stop-iteration-iterator-npm-1.0.0-ea451e1609-10c0.zip/node_modules/stop-iteration-iterator/",\
-        "packageDependencies": [\
-          ["stop-iteration-iterator", "npm:1.0.0"],\
-          ["internal-slot", "npm:1.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
