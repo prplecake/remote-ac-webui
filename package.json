@@ -76,5 +76,6 @@
     "stylelint-scss": "^5.3.2",
     "webpack": "^5.91.0",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
