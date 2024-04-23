@@ -7411,7 +7411,7 @@ __metadata:
     stylelint: "npm:^15.11.0"
     stylelint-config-recommended-scss: "npm:^14.0.0"
     stylelint-config-standard: "npm:^36.0.0"
-    stylelint-scss: "npm:^5.3.2"
+    stylelint-scss: "npm:^6.2.1"
     ts-loader: "npm:^9.5.1"
     typescript: "npm:^5.4.5"
     web-vitals: "npm:^3.5.2"
@@ -13965,22 +13965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:^5.3.2":
-  version: 5.3.2
-  resolution: "stylelint-scss@npm:5.3.2"
-  dependencies:
-    known-css-properties: "npm:^0.29.0"
-    postcss-media-query-parser: "npm:^0.2.3"
-    postcss-resolve-nested-selector: "npm:^0.1.1"
-    postcss-selector-parser: "npm:^6.0.13"
-    postcss-value-parser: "npm:^4.2.0"
-  peerDependencies:
-    stylelint: ^14.5.1 || ^15.0.0
-  checksum: 10c0/d2cf3c9b3d2fad386f781ddf8056cdc12794048809f1f9dd7b87dba28c908ff37a9fb21f0fb6681a53cdbbe58614178a6ff78dce93180d3c4738144e0cf34062
-  languageName: node
-  linkType: hard
-
-"stylelint-scss@npm:^6.0.0":
+"stylelint-scss@npm:^6.0.0, stylelint-scss@npm:^6.2.1":
   version: 6.2.1
   resolution: "stylelint-scss@npm:6.2.1"
   dependencies:

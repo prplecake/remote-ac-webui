@@ -58,7 +58,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint", "npm:15.11.0"],\
           ["stylelint-config-recommended-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.0.0"],\
           ["stylelint-config-standard", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:36.0.0"],\
-          ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.3.2"],\
+          ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.2.1"],\
           ["ts-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.5.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["web-vitals", "npm:3.5.2"],\
@@ -10515,7 +10515,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint", "npm:15.11.0"],\
           ["stylelint-config-recommended-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.0.0"],\
           ["stylelint-config-standard", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:36.0.0"],\
-          ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.3.2"],\
+          ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.2.1"],\
           ["ts-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.5.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["web-vitals", "npm:3.5.2"],\
@@ -18800,7 +18800,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-scss", "virtual:feb4d580fce7490b8e91b7f934a0676576f02090c25ddd1c537cdb5fe7a9acac534896c4e730c1cf6777a2dae4fdaef0a994fc6ebb3c1f59c91acef77ca7bcc6#npm:4.0.9"],\
           ["stylelint", "npm:15.11.0"],\
           ["stylelint-config-recommended", "virtual:feb4d580fce7490b8e91b7f934a0676576f02090c25ddd1c537cdb5fe7a9acac534896c4e730c1cf6777a2dae4fdaef0a994fc6ebb3c1f59c91acef77ca7bcc6#npm:14.0.0"],\
-          ["stylelint-scss", "virtual:feb4d580fce7490b8e91b7f934a0676576f02090c25ddd1c537cdb5fe7a9acac534896c4e730c1cf6777a2dae4fdaef0a994fc6ebb3c1f59c91acef77ca7bcc6#npm:6.2.1"]\
+          ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.2.1"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -18835,13 +18835,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["stylelint-scss", [\
-      ["npm:5.3.2", {\
-        "packageLocation": "../../.yarn/berry/cache/stylelint-scss-npm-5.3.2-ff07be35e5-10c0.zip/node_modules/stylelint-scss/",\
-        "packageDependencies": [\
-          ["stylelint-scss", "npm:5.3.2"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
       ["npm:6.2.1", {\
         "packageLocation": "../../.yarn/berry/cache/stylelint-scss-npm-6.2.1-89d47e557b-10c0.zip/node_modules/stylelint-scss/",\
         "packageDependencies": [\
@@ -18849,28 +18842,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.3.2", {\
-        "packageLocation": "./.yarn/__virtual__/stylelint-scss-virtual-53a9ed4aa0/3/.yarn/berry/cache/stylelint-scss-npm-5.3.2-ff07be35e5-10c0.zip/node_modules/stylelint-scss/",\
+      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/stylelint-scss-virtual-e6e686b533/3/.yarn/berry/cache/stylelint-scss-npm-6.2.1-89d47e557b-10c0.zip/node_modules/stylelint-scss/",\
         "packageDependencies": [\
-          ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.3.2"],\
-          ["@types/stylelint", null],\
-          ["known-css-properties", "npm:0.29.0"],\
-          ["postcss-media-query-parser", "npm:0.2.3"],\
-          ["postcss-resolve-nested-selector", "npm:0.1.1"],\
-          ["postcss-selector-parser", "npm:6.0.13"],\
-          ["postcss-value-parser", "npm:4.2.0"],\
-          ["stylelint", "npm:15.11.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/stylelint",\
-          "stylelint"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:feb4d580fce7490b8e91b7f934a0676576f02090c25ddd1c537cdb5fe7a9acac534896c4e730c1cf6777a2dae4fdaef0a994fc6ebb3c1f59c91acef77ca7bcc6#npm:6.2.1", {\
-        "packageLocation": "./.yarn/__virtual__/stylelint-scss-virtual-57cc9efffb/3/.yarn/berry/cache/stylelint-scss-npm-6.2.1-89d47e557b-10c0.zip/node_modules/stylelint-scss/",\
-        "packageDependencies": [\
-          ["stylelint-scss", "virtual:feb4d580fce7490b8e91b7f934a0676576f02090c25ddd1c537cdb5fe7a9acac534896c4e730c1cf6777a2dae4fdaef0a994fc6ebb3c1f59c91acef77ca7bcc6#npm:6.2.1"],\
+          ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.2.1"],\
           ["@types/stylelint", null],\
           ["known-css-properties", "npm:0.29.0"],\
           ["postcss-media-query-parser", "npm:0.2.3"],\
