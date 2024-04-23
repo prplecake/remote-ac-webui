@@ -53,7 +53,7 @@ const RAW_RUNTIME_STATE =
           ["react-strap", "npm:0.0.1"],\
           ["reactstrap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.2.2"],\
           ["sass", "npm:1.74.1"],\
-          ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.0"],\
+          ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.1"],\
           ["style-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:3.3.4"],\
           ["stylelint", "npm:15.11.0"],\
           ["stylelint-config-recommended-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:13.1.0"],\
@@ -10501,7 +10501,7 @@ const RAW_RUNTIME_STATE =
           ["react-strap", "npm:0.0.1"],\
           ["reactstrap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.2.2"],\
           ["sass", "npm:1.74.1"],\
-          ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.0"],\
+          ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.1"],\
           ["style-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:3.3.4"],\
           ["stylelint", "npm:15.11.0"],\
           ["stylelint-config-recommended-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:13.1.0"],\
@@ -17709,17 +17709,17 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:14.2.0", {\
-        "packageLocation": "../../.yarn/berry/cache/sass-loader-npm-14.2.0-f93be14e05-10c0.zip/node_modules/sass-loader/",\
+      ["npm:14.2.1", {\
+        "packageLocation": "../../.yarn/berry/cache/sass-loader-npm-14.2.1-dc50026ea1-10c0.zip/node_modules/sass-loader/",\
         "packageDependencies": [\
-          ["sass-loader", "npm:14.2.0"]\
+          ["sass-loader", "npm:14.2.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-9e0307a629/3/.yarn/berry/cache/sass-loader-npm-14.2.0-f93be14e05-10c0.zip/node_modules/sass-loader/",\
+      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-ddfedaa14f/3/.yarn/berry/cache/sass-loader-npm-14.2.1-dc50026ea1-10c0.zip/node_modules/sass-loader/",\
         "packageDependencies": [\
-          ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.0"],\
+          ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.1"],\
           ["@rspack/core", null],\
           ["@types/node-sass", null],\
           ["@types/rspack__core", null],\
