@@ -20,7 +20,7 @@
     "react-scripts": "^5.0.1",
     "react-strap": "^0.0.1",
     "reactstrap": "^9.2.2",
-    "sass": "^1.76.0",
+    "sass": "^1.77.1",
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.1",
