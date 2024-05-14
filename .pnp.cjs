@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.24.5"],\
           ["@babel/preset-react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.24.1"],\
           ["@testing-library/jest-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.4.5"],\
-          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.6"],\
+          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.7"],\
           ["@testing-library/user-event", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.5.2"],\
           ["@types/node", "npm:20.12.7"],\
           ["@types/react", "npm:18.3.2"],\
@@ -5026,17 +5026,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@testing-library/react", [\
-      ["npm:15.0.6", {\
-        "packageLocation": "../../.yarn/berry/cache/@testing-library-react-npm-15.0.6-352c3ffdc6-10c0.zip/node_modules/@testing-library/react/",\
+      ["npm:15.0.7", {\
+        "packageLocation": "../../.yarn/berry/cache/@testing-library-react-npm-15.0.7-fc23780217-10c0.zip/node_modules/@testing-library/react/",\
         "packageDependencies": [\
-          ["@testing-library/react", "npm:15.0.6"]\
+          ["@testing-library/react", "npm:15.0.7"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.6", {\
-        "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-29731cd139/3/.yarn/berry/cache/@testing-library-react-npm-15.0.6-352c3ffdc6-10c0.zip/node_modules/@testing-library/react/",\
+      ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.7", {\
+        "packageLocation": "./.yarn/__virtual__/@testing-library-react-virtual-83856a63d4/3/.yarn/berry/cache/@testing-library-react-npm-15.0.7-fc23780217-10c0.zip/node_modules/@testing-library/react/",\
         "packageDependencies": [\
-          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.6"],\
+          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.7"],\
           ["@babel/runtime", "npm:7.22.6"],\
           ["@testing-library/dom", "npm:10.0.0"],\
           ["@types/react", "npm:18.3.2"],\
@@ -10883,7 +10883,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.24.5"],\
           ["@babel/preset-react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.24.1"],\
           ["@testing-library/jest-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.4.5"],\
-          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.6"],\
+          ["@testing-library/react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:15.0.7"],\
           ["@testing-library/user-event", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.5.2"],\
           ["@types/node", "npm:20.12.7"],\
           ["@types/react", "npm:18.3.2"],\
