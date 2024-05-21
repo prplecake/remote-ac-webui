@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["babel-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.1.3"],\
           ["bootstrap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.3.3"],\
           ["bootstrap-icons", "npm:1.11.3"],\
-          ["chart.js", "npm:4.4.2"],\
+          ["chart.js", "npm:4.4.3"],\
           ["clean-webpack-plugin", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.0.0"],\
           ["css-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.1.1"],\
           ["eslint", "npm:9.2.0"],\
@@ -7951,10 +7951,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chart.js", [\
-      ["npm:4.4.2", {\
-        "packageLocation": "../../.yarn/berry/cache/chart.js-npm-4.4.2-e9b1497a6e-10c0.zip/node_modules/chart.js/",\
+      ["npm:4.4.3", {\
+        "packageLocation": "../../.yarn/berry/cache/chart.js-npm-4.4.3-26ab2c8866-10c0.zip/node_modules/chart.js/",\
         "packageDependencies": [\
-          ["chart.js", "npm:4.4.2"],\
+          ["chart.js", "npm:4.4.3"],\
           ["@kurkle/color", "npm:0.3.2"]\
         ],\
         "linkType": "HARD"\
@@ -10935,7 +10935,7 @@ const RAW_RUNTIME_STATE =
           ["babel-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.1.3"],\
           ["bootstrap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.3.3"],\
           ["bootstrap-icons", "npm:1.11.3"],\
-          ["chart.js", "npm:4.4.2"],\
+          ["chart.js", "npm:4.4.3"],\
           ["clean-webpack-plugin", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.0.0"],\
           ["css-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.1.1"],\
           ["eslint", "npm:9.2.0"],\

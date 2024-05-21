@@ -12,7 +12,7 @@
     "babel-loader": "^9.1.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "chart.js": "^4.4.2",
+    "chart.js": "^4.4.3",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^7.1.1",
     "react": "^18.3.1",
