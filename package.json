@@ -14,7 +14,7 @@
     "bootstrap-icons": "^1.11.3",
     "chart.js": "^4.4.3",
     "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^7.1.1",
+    "css-loader": "^7.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
