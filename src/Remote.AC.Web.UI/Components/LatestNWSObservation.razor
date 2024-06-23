@@ -1,0 +1,41 @@
+@using System.Text.Json
+@using GeoJSON.Text.Feature
+@using Remote.AC.Core.Helpers
+@inject HttpClient Http
+
+@code {
+  [CascadingParameter] public string? WeatherStation { get; set; }
+  double? _tempC;
+  double? _humidity;
+  double? TempC
+  {
+    get => _tempC.HasValue ? Math.Round(_tempC.Value, 1) : null;
+    set => _tempC = value;
+  }
+  double? Humidity
+  {
+    get => _humidity.HasValue ? Math.Round(_humidity.Value, 1) : null;
+    set => _humidity = value;
+  }
+  double TempF => TempC.HasValue ? Math.Round(TemperatureHelpers.CelsiusToFahrenheit(TempC.Value), 1) : 0;
+  protected override async Task OnAfterRenderAsync(bool firstRender)
+  {
+    if (WeatherStation is null)
+      return;
+
+    if (TempC is null || Humidity is null)
+    {
+      var response = await Http.GetFromJsonAsync<Feature>("https://api.weather.gov/stations/" + WeatherStation + "/observations/latest");
+      Console.WriteLine(JsonSerializer.Serialize(response).ToString());
+      var featureProperties = response?.Properties;
+      TempC = ((JsonElement)featureProperties["temperature"]).GetProperty("value").GetDouble();
+      Humidity = ((JsonElement)featureProperties["relativeHumidity"]).GetProperty("value").GetDouble();
+      Console.WriteLine($"Temperature: {TempC}, Humidity: {Humidity}");
+      StateHasChanged();
+    }
+  }
+}
+
+NWS Observations (@WeatherStation)<br/>
+Temperature: @TempF&deg;F (@TempC&deg;C)<br/>
+Humidity: @(Humidity)%

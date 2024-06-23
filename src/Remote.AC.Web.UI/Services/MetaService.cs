@@ -1,4 +1,4 @@
-using Remote.AC.Core.Entity;
+using Remote.AC.Core.Entities;
 
 namespace Remote.AC.Web.UI.Services;
 

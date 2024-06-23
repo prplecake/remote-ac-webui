@@ -1,0 +1,27 @@
+<div class="container">
+  <button @onclick="Test" type="button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=@($"{(acPowerState ?? false ? "green" : "red")}") class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+    Power
+  </button>
+  <input type="button" onClick={btn_temp_up} value="Temp +"/>
+  <input type="button" onClick={btn_temp_dwn} value="Temp -"/>
+  <br/>
+  <p>
+    <strong>Fan Speeds</strong>
+  </p>
+  <input type="button" onClick={btn_fan_speed_inc} value="Fan Speed +"/>
+  <input type="button" onClick={btn_fan_speed_dec} value="Fan Speed -"/>
+  <input type="button" onClick={btn_mode_auto_fan} value="Auto Fan Speed"/>
+  <br/>
+  <p>
+    <strong>Modes</strong>
+  </p>
+  <input type="button" onClick={btn_mode_cool} value="Cool"/>
+  <input type="button" onClick={btn_mode_fan_only} value="Fan Only"/>
+  <p>
+    <strong>Other</strong>
+  </p>
+  <input type="button" onClick={btn_toggle_ac_power_state} value="Toggle AC Power (App State)"/>
+</div>
