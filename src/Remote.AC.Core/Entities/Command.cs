@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace Remote.AC.Core.Entity;
+namespace Remote.AC.Core.Entities;
 
 public class Command
 {

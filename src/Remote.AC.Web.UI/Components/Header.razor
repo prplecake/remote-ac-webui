@@ -1,0 +1,36 @@
+@using Remote.AC.Web.UI.Services
+@inject AppStateService AppStateService
+
+@code {
+    string? WeatherStation { get; set; }
+    string? WxGridPoints { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        var appState = await AppStateService.GetAppState();
+        Console.WriteLine(appState);
+        if (appState is not null)
+        {
+            WeatherStation = appState?.WeatherStation;
+            WxGridPoints = appState?.WxGridPoints;
+            StateHasChanged();
+        }
+    }
+}
+
+<div class="container-fluid">
+    <header class="header">
+        <div class="row">
+            <div class="col">
+                <p>Remote Air Conditioner</p>
+            </div>
+            <div class="col-sm-3">
+                <CascadingValue Value="@WeatherStation">
+                    <LatestNWSObservation/>
+                </CascadingValue>
+            </div>
+            <div class="col-sm-3">
+                <LatestSensorData/>
+            </div>
+        </div>
+    </header>
+</div>

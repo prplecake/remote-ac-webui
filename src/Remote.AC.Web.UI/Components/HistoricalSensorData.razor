@@ -1,13 +1,13 @@
 @using Remote.AC.Core.Helpers
 <h3>HistoricalSensorData</h3>
 
-@if (Data is null)
+@if (Response?.Data is null)
 {
   <p>Loading...</p>
 }
 else
 {
-  @foreach (var record in Data.Results)
+  @foreach (var record in Response.Data)
   {
     <p>
       <span>@record.Date.ToString("yyyy-MM-dd HH:mm:ss")</span>
@@ -18,7 +18,7 @@ else
   }
   <div class="row">
     <div class="col">
-      @if (Page < (Data.Count / 20))
+      @if (Page < (Response.Data.Count() / 20))
       {
         <button class="btn btn-primary" @onclick="() => NextPage()">
           <i class="bi bi-chevron-double-left"></i>

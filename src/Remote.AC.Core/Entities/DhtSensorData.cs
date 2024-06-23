@@ -1,4 +1,4 @@
-namespace Remote.AC.Core.Entity;
+namespace Remote.AC.Core.Entities;
 
 public class DhtSensorData
 {
