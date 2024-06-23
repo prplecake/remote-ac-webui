@@ -1,0 +1,18 @@
+@using Remote.AC.Core.Entities
+@using Remote.AC.Web.UI.Services
+@inject MetaService MetaService
+@code {
+  Repository repo;
+  protected override async Task OnInitializedAsync()
+  {
+  }
+}
+
+
+<div id="version-info">
+  <a href="@repo.Url/commit/@repo.Commit.Hash"
+     target="_blank"
+     rel="noreferer">
+  @repo.Commit.Hash
+  </a>-@repo.Commit.Branch
+</div>
