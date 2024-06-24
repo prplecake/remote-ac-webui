@@ -61,7 +61,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.3.1"],\
           ["ts-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.5.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
-          ["web-vitals", "npm:3.5.2"],\
+          ["web-vitals", "npm:4.2.0"],\
           ["webpack", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.91.0"],\
           ["webpack-bundle-tracker", "npm:3.1.0"],\
           ["webpack-cli", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.1.4"],\
@@ -11183,7 +11183,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint-scss", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:6.3.1"],\
           ["ts-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.5.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
-          ["web-vitals", "npm:3.5.2"],\
+          ["web-vitals", "npm:4.2.0"],\
           ["webpack", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.91.0"],\
           ["webpack-bundle-tracker", "npm:3.1.0"],\
           ["webpack-cli", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.1.4"],\
@@ -20633,10 +20633,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["web-vitals", [\
-      ["npm:3.5.2", {\
-        "packageLocation": "../../.yarn/berry/cache/web-vitals-npm-3.5.2-76ccbeb85f-10c0.zip/node_modules/web-vitals/",\
+      ["npm:4.2.0", {\
+        "packageLocation": "../../.yarn/berry/cache/web-vitals-npm-4.2.0-07c3f8f219-10c0.zip/node_modules/web-vitals/",\
         "packageDependencies": [\
-          ["web-vitals", "npm:3.5.2"]\
+          ["web-vitals", "npm:4.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
