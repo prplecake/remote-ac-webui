@@ -8105,7 +8105,7 @@ __metadata:
     stylelint-scss: "npm:^6.3.1"
     ts-loader: "npm:^9.5.1"
     typescript: "npm:^5.4.5"
-    web-vitals: "npm:^3.5.2"
+    web-vitals: "npm:^4.2.1"
     webpack: "npm:^5.91.0"
     webpack-bundle-tracker: "npm:^3.1.0"
     webpack-cli: "npm:^5.1.1"
@@ -15683,10 +15683,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-vitals@npm:^3.5.2":
-  version: 3.5.2
-  resolution: "web-vitals@npm:3.5.2"
-  checksum: 10c0/662b385d6e96a18677cf8726454b65f3aecfdca330df72a82f73f293a5708ba9d191964649f8d363a1e64062a826a99805ade8c573a6492b91e02275b6860308
+"web-vitals@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "web-vitals@npm:4.2.1"
+  checksum: 10c0/e31bdd5f872ed47a2eb2e0e2b69ea035effc4bb8b9df98a17a39a4e82d2bfda0e67f45a4fd8ec956714d853ba34d9a1f2bcda83617f08983dadb96ec36feb918
   languageName: node
   linkType: hard
 
