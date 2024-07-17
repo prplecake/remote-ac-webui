@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["react-scripts", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.0.1"],\
           ["react-strap", "npm:0.0.1"],\
           ["reactstrap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.2.2"],\
-          ["sass", "npm:1.77.4"],\
+          ["sass", "npm:1.77.8"],\
           ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.1"],\
           ["style-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.0.0"],\
           ["stylelint", "npm:16.6.1"],\
@@ -11187,7 +11187,7 @@ const RAW_RUNTIME_STATE =
           ["react-scripts", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.0.1"],\
           ["react-strap", "npm:0.0.1"],\
           ["reactstrap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:9.2.2"],\
-          ["sass", "npm:1.77.4"],\
+          ["sass", "npm:1.77.8"],\
           ["sass-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:14.2.1"],\
           ["style-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.0.0"],\
           ["stylelint", "npm:16.6.1"],\
@@ -18347,10 +18347,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.77.4", {\
-        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.77.4-13b6910aea-10c0.zip/node_modules/sass/",\
+      ["npm:1.77.8", {\
+        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.77.8-d0ad322666-10c0.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["sass", "npm:1.77.4"],\
+          ["sass", "npm:1.77.8"],\
           ["chokidar", "npm:3.5.3"],\
           ["immutable", "npm:4.3.0"],\
           ["source-map-js", "npm:1.0.2"]\
@@ -18385,7 +18385,7 @@ const RAW_RUNTIME_STATE =
           ["@types/webpack", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.77.4"],\
+          ["sass", "npm:1.77.8"],\
           ["sass-embedded", null],\
           ["webpack", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.91.0"]\
         ],\
