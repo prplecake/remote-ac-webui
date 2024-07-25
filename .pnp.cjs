@@ -46,7 +46,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.34.4"],\
           ["html-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.2.0"],\
           ["html-webpack-plugin", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.6.0"],\
-          ["prettier", "npm:3.3.2"],\
+          ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:18.3.1"],\
           ["react-scripts", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.0.1"],\
@@ -11218,7 +11218,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:7.34.4"],\
           ["html-loader", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.2.0"],\
           ["html-webpack-plugin", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.6.0"],\
-          ["prettier", "npm:3.3.2"],\
+          ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:18.3.1"],\
           ["react-scripts", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:5.0.1"],\
@@ -17301,10 +17301,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.3.2", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.3.2-efeafcaa4b/node_modules/prettier/",\
+      ["npm:3.3.3", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.3.3-e811f023f3/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.3.2"]\
+          ["prettier", "npm:3.3.3"]\
         ],\
         "linkType": "HARD"\
       }]\
