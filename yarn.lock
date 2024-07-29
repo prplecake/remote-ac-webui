@@ -8215,7 +8215,7 @@ __metadata:
     css-loader: "npm:^7.1.2"
     eslint: "npm:^9.7.0"
     eslint-plugin-react: "npm:^7.34.4"
-    html-loader: "npm:^4.2.0"
+    html-loader: "npm:^5.1.0"
     html-webpack-plugin: "npm:^5.6.0"
     prettier: "npm:^3.3.3"
     react: "npm:^18.3.1"
@@ -8803,15 +8803,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-loader@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "html-loader@npm:4.2.0"
+"html-loader@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "html-loader@npm:5.1.0"
   dependencies:
-    html-minifier-terser: "npm:^7.0.0"
-    parse5: "npm:^7.0.0"
+    html-minifier-terser: "npm:^7.2.0"
+    parse5: "npm:^7.1.2"
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 10c0/e06d0c7004e15b36928549991f04980a8ade05893659b1e1307237b9ca37c7245236b23fef57681dabf3b5c172146022d2a05625fa44cbf752f6d7ce6915ea6f
+  checksum: 10c0/23fc23f08206d70e9d0bd3d0107524a3a37fd220f951e01de74ac9a5d5fed41d51517170545801dca5762bb3b60853482ec026c72e34d2bca16e7a3ab994f03c
   languageName: node
   linkType: hard
 
@@ -8832,7 +8832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-minifier-terser@npm:^7.0.0":
+"html-minifier-terser@npm:^7.2.0":
   version: 7.2.0
   resolution: "html-minifier-terser@npm:7.2.0"
   dependencies:
@@ -11790,7 +11790,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse5@npm:^7.0.0":
+"parse5@npm:^7.1.2":
   version: 7.1.2
   resolution: "parse5@npm:7.1.2"
   dependencies:
