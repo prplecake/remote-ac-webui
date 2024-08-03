@@ -1,0 +1,24 @@
+@using Remote.AC.Core.Entities
+@using Remote.AC.Core.Helpers
+@using Remote.AC.Web.UI.Services
+@inject DhtSensorDataService DhtSensorDataService
+@code {
+  private DhtSensorData? DhtSensorData;
+  protected override async Task OnInitializedAsync()
+  {
+    DhtSensorData = await DhtSensorDataService.GetLatestDhtSensorData();
+  }
+}
+
+@if (DhtSensorData is null)
+{
+  <p>Loading...</p>
+}
+else
+{
+  <div id="current-temp">
+    Local Observations<br/>
+    Temp: @TemperatureHelpers.CelsiusToFahrenheit(DhtSensorData.TempC)°F (@DhtSensorData.TempC°C)<br/>
+    Humidity: @DhtSensorData.Humidity%
+  </div>
+}

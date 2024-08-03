@@ -1,0 +1,55 @@
+<div class="container">
+  <h3>Graph</h3>
+</div>
+@* <div class="container"> *@
+@*   <div class="row"> *@
+@*     <div class="col-xs-auto"> *@
+@*       <input *@
+@*         type="button" *@
+@*         @onclick="@(() => setChartTimeframe("14d"))" *@
+@*       value="14 days" *@
+@*       /> *@
+@*       <input *@
+@*         type="button" *@
+@*         @onclick="@(() => setChartTimeframe("3d"))" *@
+@*       value="3 days" *@
+@*       /> *@
+@*       <input *@
+@*         type="button" *@
+@*         @onclick="@(() => setChartTimeframe("24h"))" *@
+@*       value="24 hours" *@
+@*       /> *@
+@*       <input *@
+@*         type="button" *@
+@*         @onclick="@(() => setChartTimeframe("12h"))" *@
+@*       value="12 hours" *@
+@*       /> *@
+@*     </div> *@
+@*     <div class="col"> *@
+@*       <input *@
+@*         class="w-25" *@
+@*         type="text" *@
+@*         @onchange="@((e) => setNewTf(e))" *@
+@*       value={newTf as string} *@
+@*       style=@("minWidth: 100px") *@
+@*       /> *@
+@*       <input *@
+@*         type="button" *@
+@*         @onclick="() => handleTfSubmit()" *@
+@*         value="Set" *@
+@*       /> *@
+@*     </div> *@
+@*   </div> *@
+@*   <br/> *@
+@* *@
+@*   @if (isLoading) *@
+@*   { *@
+@*     <p>Loading...</p> *@
+@*   } *@
+@*   else *@
+@*   { *@
+@*     <div class="chart-container"> *@
+@*       <canvas id="chart"></canvas> *@
+@*     </div> *@
+@*   } *@
+@* </div> *@

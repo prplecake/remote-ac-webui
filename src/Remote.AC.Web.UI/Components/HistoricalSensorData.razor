@@ -1,0 +1,49 @@
+@using Remote.AC.Core.Helpers
+<h3>HistoricalSensorData</h3>
+
+@if (Response?.Data is null)
+{
+  <p>Loading...</p>
+}
+else
+{
+  @foreach (var record in Response.Data)
+  {
+    <p>
+      <span>@record.Date.ToString("yyyy-MM-dd HH:mm:ss")</span>
+      <span> :: </span>
+      <span>@TemperatureHelpers.CelsiusToFahrenheit(record.TempC)&deg;F (@record.TempC&deg;C)</span>
+      <span>H: @record.Humidity%</span>
+    </p>
+  }
+  <div class="row">
+    <div class="col">
+      @if (Response.FirstPage is not null && Response.PageNumber > 2)
+      {
+        <button class="btn btn-primary" @onclick="async () => await FetchData(Response?.FirstPage)">
+          First
+        </button>
+      }
+      @if (Response.PreviousPage is not null)
+      {
+        <button class="btn btn-primary" @onclick="async () => await FetchData(Response?.PreviousPage)">
+          Previous
+        </button>
+      }
+    </div>
+    <div class="col">
+      @if (Response.NextPage is not null)
+      {
+        <button class="btn btn-primary" @onclick="async () => await FetchData(Response?.NextPage)">
+          Next
+        </button>
+      }
+      @if (Response.LastPage is not null && Response.PageNumber < Response.TotalPages - 1)
+      {
+        <button class="btn btn-primary" @onclick="async () => await FetchData(Response?.LastPage)">
+          Last
+        </button>
+      }
+    </div>
+  </div>
+}

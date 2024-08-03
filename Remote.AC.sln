@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F452392-D502-4337-B55A-09A11B95CAB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B736F0B6-90ED-47C1-A3B2-47870F842FA6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI Workflows", "CI Workflows", "{3302BE88-A631-4BDC-A19C-5EBB82A1227F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{F3C8341A-C2A9-4574-BE1E-BD83249D0A67}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote.AC.Core", "src\Remote.AC.Core\Remote.AC.Core.csproj", "{D5F582CE-1F6E-4518-9547-00626DEB5C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote.AC.Web.UI", "src\Remote.AC.Web.UI\Remote.AC.Web.UI.csproj", "{D3F45265-B681-4301-A592-F88A52CF6656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3C8341A-C2A9-4574-BE1E-BD83249D0A67} = {B736F0B6-90ED-47C1-A3B2-47870F842FA6}
+		{3302BE88-A631-4BDC-A19C-5EBB82A1227F} = {F3C8341A-C2A9-4574-BE1E-BD83249D0A67}
+		{D5F582CE-1F6E-4518-9547-00626DEB5C60} = {3F452392-D502-4337-B55A-09A11B95CAB9}
+		{D3F45265-B681-4301-A592-F88A52CF6656} = {3F452392-D502-4337-B55A-09A11B95CAB9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5F582CE-1F6E-4518-9547-00626DEB5C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F582CE-1F6E-4518-9547-00626DEB5C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F582CE-1F6E-4518-9547-00626DEB5C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F582CE-1F6E-4518-9547-00626DEB5C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F45265-B681-4301-A592-F88A52CF6656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F45265-B681-4301-A592-F88A52CF6656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F45265-B681-4301-A592-F88A52CF6656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F45265-B681-4301-A592-F88A52CF6656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
