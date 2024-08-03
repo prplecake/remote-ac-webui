@@ -15,7 +15,7 @@ public class DhtSensorDataService(HttpClient client)
     {
         return await client.GetFromJsonAsync<DhtSensorData>("api/v1/dht/last_record");
     }
-    public async Task<PagedResponse<IEnumerable<DhtSensorData>>?> GetHistoricalDhtSensorData(string pageArg)
+    public async Task<PagedResponse<IEnumerable<DhtSensorData>>?> GetHistoricalDhtSensorData()
     {
         return await client.GetFromJsonAsync<PagedResponse<IEnumerable<DhtSensorData>>>("api/v1/dht/historical_data");
     }

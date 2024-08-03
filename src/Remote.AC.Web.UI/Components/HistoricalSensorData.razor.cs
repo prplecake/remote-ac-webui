@@ -1,3 +1,4 @@
+using System.Net.Http.Json;
 using Microsoft.AspNetCore.Components;
 using Remote.AC.Core.Entities;
 using Remote.AC.Web.UI.Model;
@@ -9,19 +10,14 @@ public partial class HistoricalSensorData : ComponentBase
 {
     [Inject] private DhtSensorDataService DhtSensorDataService { get; set; }
     [Inject] private HttpClient Http { get; set; }
-    private int Page { get; set; } = 0;
     private PagedResponse<IEnumerable<DhtSensorData>>? Response { get; set; }
-    private async Task FetchData()
+    private async Task FetchData(Uri? url = null)
     {
-        string pageArg = Page > 0 ? $"?page={Page}" : string.Empty;
-        Response = await DhtSensorDataService.GetHistoricalDhtSensorData(pageArg);
+        if (url is null)
+            Response = await DhtSensorDataService.GetHistoricalDhtSensorData();
+        else
+            Response = await Http.GetFromJsonAsync<PagedResponse<IEnumerable<DhtSensorData>>>(url);
         StateHasChanged();
-    }
-    protected void NextPage()
-    {
-        Page++;
-        Console.WriteLine("Page: " + Page);
-        _ = FetchData();
     }
     protected override async Task OnInitializedAsync()
     {
