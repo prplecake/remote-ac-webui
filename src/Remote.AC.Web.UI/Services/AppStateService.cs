@@ -10,9 +10,10 @@ public class AppStateService(HttpClient client)
     {
         return (await client.GetFromJsonAsync<Response<AppState>>("api/v1/appstate")).Data;
     }
-    public async Task ToggleAcUnit()
+    public async Task<AppState?> ToggleAcUnitPower()
     {
-        await client.PostAsync("api/v1/appstate/ac_power/toggle", null);
+        var response = await client.PostAsync("api/v1/appstate/ac_power/toggle", null);
+        return (await response.Content.ReadFromJsonAsync<Response<AppState>>()).Data;
     }
     public async Task UpdateAppState(AppState appState)
     {
