@@ -1,8 +1,10 @@
+using System.Text.Json.Serialization;
+
 namespace Remote.AC.Core.Entities;
 
 public class DhtSensorData
 {
-    public DateTime Date { get; set; }
-    public double TempC { get; set; }
+    [JsonPropertyName("timestamp")] public DateTime Date { get; set; }
+    [JsonPropertyName("temperature")] public double TempC { get; set; }
     public double Humidity { get; set; }
 }
